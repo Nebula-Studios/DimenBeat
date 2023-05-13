@@ -1,4 +1,4 @@
-# The-rhythm-of-dimensions
+# The rhythm of dimensions
  
 --------
 [![Latest Release](https://img.shields.io/github/v/release/Nebula-Studios/The-rhythm-of-dimensions)](https://github.com/Nebula-Studios/The-rhythm-of-dimensions)
