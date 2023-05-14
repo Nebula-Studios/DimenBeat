@@ -13,9 +13,9 @@
 
 最重要的是，我们正在试图找到方法让我们的 玩家/粉丝/社区 为彼此做一些很酷的事情,而不是让其他人来搞破坏
 
-## 扩展功能和 “Music Packet”
+## Music Packet
 
-您可以免费分发或提供您创建的音乐包(Music Packet)，但如果您的 Music Packet 的目的是宣传或推广其他产品或服务(请参见下面有关在 Minecraft 中构建推广的部分)，则不免费。
+您可以免费分发或提供您创建的音乐包(Music Packet)，但如果您的 Music Packet 的目的是宣传或推广其他产品或服务(请参见下面有关在 The Rhythm of Dimensions 中构建推广的部分)，则不免费。
 
 "Music Packet" 是指您创建的原始内容，其中不包含任何我们受版权保护的代码或内容。对于什么是 Music Packet，什么不是 Music Packet，我们拥有最终决定权。
 
@@ -37,7 +37,7 @@
 具体而言，如果您是这些实体之一或被这些实体雇用，您不得利用 The rhythm of dimensions 进行以下活动：
  * 构建或委托他人构建 Music Packet，以可玩的形式推广或营销无关的产品或服务；
  * 构建或委托他人构建 Music Packet，以推广或营销公司的电影或电视节目；
- * 提供在实际位置公开展示或投射的 Minecraft 游戏玩法，您也不得对 The rhythm of dimensions 游戏玩法、联盟或竞赛收费；
+ * 提供在实际位置公开展示或投射的 The Rhythm of Dimensions 游戏玩法，您也不得对 The rhythm of dimensions 游戏玩法、联盟或竞赛收费；
  * 构建或委托他人通过 The rhythm of dimensions 构建推广或营销视频或电影预告片；
  * 推广您（或您客户）的公司品牌、产品或服务。
 
