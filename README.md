@@ -13,4 +13,6 @@
 > 
 > [User End Agreement](https://github.com/Nebula-Studios/The-rhythm-of-dimensions/blob/main/.github/workflows/Eula.md)
 > 
+> [Rules for Commercial Use of Dimensional Rhythm](https://github.com/Nebula-Studios/The-rhythm-of-dimensions/blob/main/.github/workflows/Terms.md)
+> 
 > Copyright © 2023 Nebula-Studios All Rights Reserved
