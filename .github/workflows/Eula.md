@@ -47,42 +47,54 @@ At the same time, you are not allowed to anti obfuscate or modify the code of ou
 
 ## Ownership of our games and other content
 
-尽管我们授予您在设备上安装和畅玩我们游戏的权限，但我们仍然是游戏的所有者。我们还是我们的游戏中包含的任何内容的所有者。因此，当您购买我们的游戏时，实际上您购买的是根据本 EULA 玩/使用我们的游戏的许可，而不是游戏本身。您拥有的与游戏及游戏安装有关的仅有权限是本 EULA 中规定的权限。
+Although we grant you permission to install and play our game on your device, we remain the owner of the game. We are also the owner of any content included in our game.
 
-您从头开始为游戏创建的任何 music packet 均归您所有（包括事先运行的 music packet 和内存中 music packet），您可以对它们执行任何所需操作，只要您不通过出售它们来赚钱/尝试通过它们赚钱。记住，music packet 是您的原创作品，不包含我们代码或内容的实质部分。您只拥有您创建的内容，而不拥有我们的代码或内容。
+Therefore, when you purchase our game, you are actually purchasing a license to play/use our game under this EULA, not the game itself. The only permissions you have related to games and game installations are those specified in this EULA.
 
-## 内容
+Any music packets you create for the game from scratch belong to you (including pre run and in memory music packets), and you can perform any necessary actions on them as long as you do not make money by selling them/trying to make money from them.
 
-如果您在我们的游戏中或通过我们的游戏发布任何内容，则表示您同意授予我们使用、复制、修改、调整、分发和公开显示该内容的权限。该权限是不可撤销的，并且您还同意我们允许其他人使用、复制、修改、调整、分发和公开显示您的内容。您并不是放弃对您的内容的所有权，您只是授予我们和其他用户使用该内容的权限。例如，我们可能需要对您发布在我们网站上的内容进行复制、重新设置格式和分发，以便其他人可以阅读。如果您不想授予我们这些权限，请不要在我们的游戏中或通过我们的游戏发布任何内容。在发布任何内容之前请仔细考虑，因为内容将会被公开，甚至可能会被其他人以您不喜欢的方式使用。
+Remember, the music packet is your original work and does not contain any substantial parts of our code or content. You only own the content you create, not our code or content.
 
-如果您打算在我们的游戏中或通过我们的游戏发布内容，该内容不得冒犯他人或非法，必须真实，并且必须是您自己的作品。您不得使用我们的游戏发布的内容类型的一些示例包括：包含种族主义或恐同言论的帖子；欺凌或引诱性质的帖子；具有冒犯性或损坏我们或他人声誉的帖子；包含色情描写或其他人的作品或图片的帖子；或者假扮版主或试图欺骗或利用他人的帖子。
+## Content
 
-您在我们的游戏中发布的任何内容还必须是您自己的作品，或者您必须具有这么做的权限或权利。您不得，并且您同意不会使用我们的游戏发布任何侵犯他人权利的内容。
+If you publish any content in or through our game, you agree to grant us permission to use, copy, modify, adjust, distribute, and publicly display the content. This permission is irrevocable, and you also agree that we allow others to use, copy, modify, adjust, distribute, and publicly display your content. You are not giving up ownership of your content, you are only granting us and other users permission to use the content. For example, we may need to copy, reformat, and distribute the content you post on our website so that others can read it. If you do not want to grant us these permissions, please do not publish any content in or through our game. Before publishing any content, please carefully consider it as it will be made public and may even be used by others in ways you do not like.
 
-我们保留根据我们自己的判断撤下任何内容的权利。
+If you plan to publish content in or through our game, the content must not offend others or be illegal, must be genuine, and must be your own work. Some examples of content types that you are not allowed to use in our game include: posts containing racist or homophobic comments; Bullying or tempting posts; Posts that are offensive or damage our or others' reputation; Posts containing pornographic descriptions or other people's works or images; Or pretending to be a moderator or attempting to deceive or exploit others' posts.
 
-如果您在我们的游戏中与人们交谈，请当心。无论是您还是我们都很难确定人们说的哪些话是真的，甚至很难确定人们实际上是否与其所声称的身份相符。在披露有关您自己的信息之前，始终应该三思。
+Any content you post in our game must also be your own work, or you must have the permission or right to do so. You are not allowed, and you agree not to use our game to publish any content that infringes on the rights of others.
 
-## 更新
+We reserve the right to remove any content based on our own judgment.
 
-我们可以不时发布升级、更新或补丁（我们将其统称为"更新"），但我们不必非得这么做。我们也没有义务对任何游戏提供持续支持或维护。当然，我们希望继续为我们的游戏发布新的更新，我们只是不能保证一定会这么做。更新中附带的更改可能不太适用于其他软件，例如 music packet 。我们对此表示遗憾，但我们不会对此承担责任。如果您遇到这种情况，请尝试运行较旧版本。
+ **If you are talking to people in our game, please be careful. It is difficult for both you and us to determine which words people say are true, or even whether they actually match their claimed identity. Before disclosing information about yourself, you should always think twice.**
 
-## 责任和管辖法律
+## Update
 
-本 EULA 中的条款不影响根据法律您可能享有的有关游戏的任何合法（法定）权利。您可能享有某些适用于您的法律规定不能免除的权利。这些条款中的任何规定都不会影响那些法定权利，即使这些规定可能与您的法定权利相冲突也是如此。当我们说"根据适用的法律"时，就是这个意思。
+We can release upgrades, updates, or patches from time to time (collectively referred to as "updates"), but we don't have to do so. We also have no obligation to provide continuous support or maintenance for any game.
 
-根据适用的法律，当您获得我们游戏的副本时，我们按"现状"提供。更新也按"现状"提供。这意味着关于我们游戏的标准或质量，我们不向您做任何承诺，也不承诺我们的游戏将不会中断或不含错误。我们不对游戏可能造成的任何损失或损坏负责。您对游戏的质量和性能承担全部责任。您必须接受，我们可能会在游戏完成之前发布游戏，因此它们可能（而且经常会）包含 BUG，但我们更愿意提前发布这些功能而不是让您等待它尽善尽美。如果您想通知我们某个潜在 BUG，我们在此处提供了专门的[网站](https://github.com/Nebula-Studios/The-rhythm-of-dimensions)。
+Of course, we hope to continue releasing new updates for our game, but we just cannot guarantee that we will do so.
 
-本 EULA 的解释和违反本协议的索赔受中国法律管辖，不受冲突法原则限制。所有其他索赔和争议（包括与消费者保护法、不正当竞争法以及侵权行为有关的索赔，以及与我们的游戏相关的争议），应受您所在国家/地区的法律管辖，不受冲突法原则限制。
+The changes included in the update may not be applicable to other software, such as music packs. We regret this, but we will not take responsibility for it. If you encounter this situation, please try running an older version.
 
-## 终止
+## Liability and Governing Law
 
-如果您违反任一条款，我们有权终止本 EULA。您也可以随时终止它；为此，您只需要从设备中卸载游戏即可，EULA 将自行终止。如果 EULA 终止，您将不再享有本许可中赋予的任何游戏权利。不过，对于您在玩游戏的过程中自己创建的内容，您仍享有权利。即使在 EULA 终止后，有关"我们游戏的所有权"、"我们的责任"和"一般条款"的段落也将继续适用。
+The terms of this EULA do not affect any legal (statutory) rights you may have in relation to the game under the law. You may have certain rights that cannot be exempted by legal provisions applicable to you.
 
-## 一般条款
+Any provision in these terms will not affect those statutory rights, even if these provisions may conflict with your statutory rights. When we say 'according to applicable law', that's what we mean.
 
-您当地的法律可能会赋予您本 EULA 无法更改的权利；如果是这样情况，本 EULA 将在法律允许的范围内适用。 本许可中的任何条款都不会限制我们对因我们的过失或欺诈性虚假陈述而导致的死亡或人身伤害的责任。
+According to applicable laws, when you obtain a copy of our game, we provide it as is. Updates are also provided as is. This means that we make no promises to you regarding the standards or quality of our game, nor do we promise that our game will be uninterrupted or error free.We are not responsible for any losses or damages that may be caused by the game. You take full responsibility for the quality and performance of the game. You must accept that we may release games before they are completed, so they may (and often do) contain bugs, but we would prefer to release these features in advance rather than letting you wait for them to be perfect. If you would like to notify us of a potential bug, we have provided a dedicated [Website](https://github.com/Nebula-Studios/The-rhythm-of-dimensions).
 
-如果有适当理由，我们可能会不时更改本 EULA，例如更改我们的游戏、惯例或法律义务。但这些更改只在法律允许的范围内生效。例如，如果您只在单玩家模式中玩游戏，并且不使用我们提供的更新，那么将适用旧 EULA；但是如果您使用更新或者所用游戏的某些部分依赖我们提供的持续在线服务，那么新 EULA 将适用。在后一种情况下，我们会在更改生效前通知您，方法是在我们的网站上张贴通知，或者通过其他合理的方式。虽然在这方面我们会尽量做到公平，但有时法律会有变化，或者有人会做一些影响游戏的其他用户的事情，因此我们需要禁止这种行为。
+The interpretation of this EULA and claims for breach of this agreement shall be governed by Chinese law and shall not be limited by the principles of conflict of laws. All other claims and disputes (including claims related to consumer protection laws, unfair competition laws and torts, as well as disputes related to our games) shall be governed by the laws of your country/region, not subject to the principles of conflict of laws.
 
-如果您向我们提出有关我们的游戏的建议，则该建议是免费的，我们没有义务接受或考虑。这意味着我们可以通过所需的任何方式使用或不使用您的建议，且不必向您支付报酬。如果您认为我们应为您的建议支付报酬，那么除非您提前告诉我们您希望得到报酬并且我们已经以书面形式回复，要求您提交该建议，否则请不要提交您的建议。
+## Termination
+
+If you violate any of the terms, we have the right to terminate this EULA. You can also terminate it at any time; To achieve this, you only need to uninstall the game from your device, and EULA will terminate on its own.
+
+If EULA terminates, you will no longer enjoy any gaming rights granted in this license. However, you still have the right to create your own content while playing the game. Even after the termination of the EULA, the paragraphs regarding "ownership of our game", "our responsibility", and "general terms" will continue to apply.
+
+## General terms
+
+Your local laws may grant you rights that cannot be changed by this EULA; If this is the case, this EULA will apply to the extent permitted by law. Nothing in this license limits our liability for death or personal injury caused by our negligence or fraudulent misrepresentation.
+
+If there are appropriate reasons, we may change this EULA from time to time, such as changing our games, customs, or legal obligations. But these changes will only take effect to the extent permitted by law. For example, if you only play games in single player mode and do not use the updates we provide, the old EULA will apply; However, if you rely on our continuous online services for updates or certain parts of the game you are using, the new EULA will apply. In the latter case, we will notify you before the change takes effect by posting the notice on our website or through other reasonable means. Although we will try to be fair in this regard, sometimes there may be changes in the law or someone may do things that affect other users of the game, so we need to prohibit such behavior.
+
+If you provide us with suggestions about our game, it is free of charge and we have no obligation to accept or consider them. This means that we can use or not use your advice in any way we want, without paying you any compensation. If you believe that we should pay compensation for your suggestion, please do not submit your suggestion unless you have informed us in advance that you wish to receive compensation and we have responded in writing requesting that you submit the suggestion.
