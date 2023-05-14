@@ -15,5 +15,7 @@
 > 
 > [用户最终协议](https://github.com/Nebula-Studios/The-rhythm-of-dimensions/blob/main/.github/workflows/Eula_cn.md)
 > 
+> [The rhythm of dimensions 商业使用准则](https://github.com/Nebula-Studios/The-rhythm-of-dimensions/blob/main/.github/workflows/Terms_cn.md)
+> 
 > Copyright © 2023 Nebula Studios All Rights Reserved
 
