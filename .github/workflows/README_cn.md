@@ -13,7 +13,7 @@
 > 
 > 游戏详细介绍: https://3cxc.itch.io/the-rhythm-of-dimensions
 > 
-> [用户最终协议](https://github.com/Nebula-Studios/The-rhythm-of-dimensions/blob/main/Eula_cn.md)
+> [用户最终协议](https://github.com/Nebula-Studios/The-rhythm-of-dimensions/blob/main/.github/workflows/Eula_cn.md)
 > 
 > Copyright © 2023 Nebula Studios
 
