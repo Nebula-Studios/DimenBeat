@@ -1,0 +1,11 @@
+{
+   "language.name":"中文",
+   "language.code":"zh_cn",
+   "system.config.load":"开始加载配置文件...",
+   "system.config.create":"配置文件生成完成!",
+   "system.load.text1":"本游戏版本:",
+   "system.load.text2":"开始加载游戏...",
+   "error.system.io":"IO读写错误!",
+   "error.lwjgl.init":"无法启用GLFW",
+   "error.lwjgl.window":"无法创建窗口"
+}
