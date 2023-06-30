@@ -2,7 +2,6 @@
  
 --------
 [![Latest Release](https://img.shields.io/github/v/release/Nebula-Studios/The-rhythm-of-dimensions)](https://github.com/Nebula-Studios/The-rhythm-of-dimensions)
-[![License](https://img.shields.io/github/license/Nebula-Studios/The-rhythm-of-dimensions.svg)](https://github.com/Nebula-Studios/The-rhythm-of-dimensions/blob/main/LICENSE)
 
 **English** | [中文](https://github.com/Nebula-Studios/The-rhythm-of-dimensions/blob/main/.github/workflows/README_cn.md)
 
