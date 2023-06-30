@@ -3,8 +3,8 @@ In order to protect The Rhythm of Dimensions (hereinafter referred to as "Our Ga
 We need this end-user license clause to establish some rules. This license is a legal agreement between you and us (Nebula Studios)
 This agreement describes the terms and conditions of using the game. If you violate these rules, we may stop you from using our game. If we deem it necessary, we will request the assistance of our lawyers
 
-If you purchase, download, or play our game, you agree to comply with the terms of the End User License Agreement (EULA)
-If you do not agree to these regulations, you are not allowed to purchase, download, or play our game. By accepting this EULA, you accept all the terms, so please read this EULA carefully
+If you purchase, download and play our games, you agree to abide by the provisions of the End-user license agreement (hereinafter referred to as "EULA")
+If you do not agree to these terms, you are not allowed to purchase, download, or play our game. By accepting this EULA, you accept all the terms, so please read this EULA carefully
 
 ## Important regulations
 
@@ -23,13 +23,17 @@ In addition, we have very lenient requirements for what you do. In fact, we enco
 
 You have obtained the license for this game, so you can use it on your own device.
 
-We will also grant you some rights. If you want to create content related to any content we have already created, we are very happy, but please ensure that it is not considered official content and complies with the EULA. **Most importantly, do not use any content we have created for commercial purposes.**
+We will also grant you some rights. If you want to create content related to any content we have already created, we are very happy, but please ensure that it is not considered official content and complies with the EULA. **Most importantly, do not use any content that belongs to us for commercial purposes.**
 
 If you violate any of the terms of this EULA, we can revoke your license and permission to use our game.
 
 When you purchase our game, you will receive a license that allows you to install/use the game on your personal device in accordance with the provisions of this EULA. This permission only applies to you, so you cannot distribute the game (or any part of it) to others. And you cannot sell or rent the game, or make it accessible to others, and you cannot transfer or resell any license keys. At the same time, you must help us prevent piracy and protect our games.
 
-If you have purchased our game, you can try it out or add music packs (we refer to them as "music packs"). The so-called "music package" refers to your or someone else's original/second creation music, which does not contain our copyrighted code or substantial parts of the content. It can be freely used, distributed, or modified because it belongs to community created content, and we cannot control it. Therefore, if there is any dispute with the music package you create, we will not be responsible for it
+If you have purchased our game, you can try it out or add music packs (referred to as "music packs"), tools or plugins (collectively referred to as "mods") to make the game more interesting. The so-called "music packet" refers to your or someone else's original/second creation music, while "mod" refers to your original (code) work.
+
+We have the final decision on which content constitutes a Mod or music packet and which does not constitute a Mod or music packet.
+
+They do not contain any copyrighted code or substantial parts of the content, and can be used, distributed, or modified at will. If there is any dispute over the music package or Mod you create, we will not be responsible for it
 
 As long as there is a legitimate reason, you can use screenshots and videos of the game to do anything you want. But you cannot use it for any commercial purpose, or do anything unfair or unfavorable to us, unless we explicitly allow you to do so in this EULA or in a specific agreement with you. However, if you upload game videos to video websites, you can place advertisements in them.
 
@@ -42,7 +46,7 @@ At the same time, you are not allowed to anti obfuscate or modify the code of ou
 
 Although we grant you permission to install and play our game on your device, we remain the owner of the game (including any content it contains). Therefore, when you purchase our game, you are actually purchasing a license to play/use our game under this EULA, not the game itself. The permissions you have related to games and installations are the permissions specified in this EULA.
 
-Any music packets you create for the game from scratch belong to you, and you can perform any action on them. Remember, the music packet is your original work and does not contain any substantial parts of our code or content. You only own the content you create, not our code or content.
+Any music packets or mods you create for the game from scratch belong to you, and you can perform any action on them as long as you don't make money by selling them/trying to make money from them. Remember, music packets and mods are all your original works and do not contain any substantial parts of our code or content. You only own the content you create, not our code or content.
 
 ## Content
 
@@ -62,13 +66,13 @@ We reserve the right to remove any content.
 
 ## Update
 
-We can release upgrades, updates, or patches from time to time (collectively referred to as "updates"), but we do not necessarily have to do so. We also have no obligation to provide continuous support or maintenance for any game. Of course, we hope to continue releasing new updates for our game, but we just cannot guarantee that we will do so. The changes included in the update may not be applicable to other software, such as music packs. We regret this, but we will not take responsibility for it.
+We can release upgrades, updates, or patches from time to time (collectively referred to as "updates"), but we do not necessarily have to do so. We also have no obligation to provide continuous support or maintenance for any game. Of course, we hope to continue releasing new updates for our game, but we just cannot guarantee that we will do so. The changes included in the update may not be applicable to other software, such as music packet or mod. We regret this, but we will not take responsibility for it.
 
 ## Liability and Governing Law
 
 The terms of this EULA do not affect any legal (statutory) rights you may have in relation to the game under the law. You may have certain rights that cannot be exempted by legal provisions applicable to you. Any provision in these terms will not affect those statutory rights, even if these provisions may conflict with your statutory rights. When we say 'according to applicable law', that's what we mean.
 
-According to applicable laws, when you obtain a copy of our game, we provide it as is. Updates are also provided as is. This means that we do not promise you the standards or quality of the game, nor do we promise that the game will not be interrupted or contain errors. We are not responsible for any losses or damages that may be caused by the game. You take full responsibility for the quality and performance of the game. We may release games before they are completed, so they may (and often do) contain bugs, but we would prefer to release these features in advance rather than keeping you waiting for a long time. If you would like to notify us of a potential bug, we have provided a dedicated [Website](https://github.com/Nebula-Studios/The-rhythm-of-dimensions).
+According to applicable laws, when you obtain a copy of our game, we provide it as is. Updates are also provided as is. This means that we do not promise you the standards or quality of the game, nor do we promise that the game will not be interrupted or contain errors. We are not responsible for any losses or damages that may be caused by the game. You take full responsibility for the quality and performance of the game. We may release games before they are completed, so they may (and often do) contain bugs, but we would prefer to release these features in advance rather than keeping you waiting for a long time. If you would like to notify us of a potential bug, we have provided a dedicated [Website](https://github.com/Nebula-Studios/The-rhythm-of-dimensions/lssues).
 
 The interpretation of this EULA and claims for breach of this agreement shall be governed by Chinese law and shall not be limited by the principles of conflict of laws. All other claims and disputes (including claims related to consumer protection laws, unfair competition laws and torts, as well as disputes related to our games) shall be governed by the laws of your country/region, not subject to the principles of conflict of laws.
 
