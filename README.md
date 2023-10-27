@@ -1,16 +1,16 @@
-# The rhythm of dimensions
+# DimenBeat
  
 --------
-[![Latest Release](https://img.shields.io/github/v/release/Nebula-Studios/The-rhythm-of-dimensions)](https://github.com/Nebula-Studios/The-rhythm-of-dimensions)
+[![Latest Release](https://img.shields.io/github/v/release/Nebula-Studios/DimenBeat)](https://github.com/Nebula-Studios/DimenBeat)
 
-**English** | [中文](https://github.com/Nebula-Studios/The-rhythm-of-dimensions/blob/main/.github/workflows/README_cn.md)
+**English** | [中文](https://github.com/Nebula-Studios/DimenBeat/blob/main/.github/workflows/README_cn.md)
 
 > Preface:
-> An innovative audio game, which links the three elements of audio game, multiplayer PVP game and anime game.
-> Please note that this game is currently in the early development stage and is not the final quality of the game
 > 
-> [Detailed website](https://3cxc.itch.io/the-rhythm-of-dimensions)
+> “DimenBeat” is a translational-style pseudo 3D rhythm game that combines elements of music gaming, multiplayer battles, and the anime subculture. It also features a creative workshop that supports the development of third-party mods and music packs through an accessible API.
 > 
-> [User End Agreement](https://github.com/Nebula-Studios/The-rhythm-of-dimensions/blob/main/.github/workflows/Eula.md)
+> [Detailed website](https://3cxc.itch.io/DimenBeat)
+> 
+> [User End Agreement](https://github.com/Nebula-Studios/DimenBeat/blob/main/.github/workflows/Eula.md)
 > 
 > Copyright © 2023 Nebula-Studios All Rights Reserved
