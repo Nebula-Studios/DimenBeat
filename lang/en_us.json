@@ -1,0 +1,19 @@
+{
+   "language.name":"English",
+   "language.code":"en_us",
+   "system.load":"Game loading completed!",
+   "system.load.text1":"The game version is ",
+   "system.load.text2":"Start loading game...",
+   "system.load.config":"Configuration file generation completed!",
+   "system.load.mods":"All mods have been loaded!",
+   "system.update":"Checked for a new version: ",
+   "system.update.web":"Please go to the official website to download the new version: ",
+   "system.update.latest":"It is already the latest version!",
+   "system.update.error":"Failed to check for updates!",
+   "system.stop":"Stopping Game...",
+   "system.stop.mods":"All mods have been uninstalled!",
+   "system.save.config":"Configuration file saved!",
+   "error.system.io":"IO read/write error!",
+   "error.lwjgl.init":"Unable to enable GLFW!",
+   "error.lwjgl.window":"Unable to create window"
+}

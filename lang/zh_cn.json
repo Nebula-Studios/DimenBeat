@@ -1,11 +1,19 @@
 {
    "language.name":"中文",
    "language.code":"zh_cn",
-   "system.config.load":"开始加载配置文件...",
-   "system.config.create":"配置文件生成完成!",
-   "system.load.text1":"本游戏版本:",
+   "system.load":"游戏加载完成!",
+   "system.load.text1":"游戏版本为 ",
    "system.load.text2":"开始加载游戏...",
+   "system.load.config":"配置文件生成完成!",
+   "system.load.mods":"所有模组加载完成!",
+   "system.update":"发现新版本: ",
+   "system.update.web":"请在此处下载新版本: ",
+   "system.update.latest":"您正在使用最新版本!",
+   "system.update.error":"检查更新时发生错误!",
+   "system.stop":"正在停止游戏...",
+   "system.stop.mods":"所有模组已成功卸载!",
+   "system.save.config":"配置文件已保存!",
    "error.system.io":"IO读写错误!",
-   "error.lwjgl.init":"无法启用GLFW",
-   "error.lwjgl.window":"无法创建窗口"
+   "error.lwjgl.init":"无法启用GLFW!",
+   "error.lwjgl.window":"无法创建窗口!"
 }
