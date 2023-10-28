@@ -14,7 +14,7 @@
 > 
 > **注意: 游戏处于早期开发阶段,不是游戏的最终品质**
 > 
-> [游戏详细介绍](https://3cxc.itch.io/the-rhythm-of-dimensions)
+> [游戏详细介绍](https://3cxc.itch.io/DimenBeat)
 > 
 > [用户最终协议](https://github.com/Nebula-Studios/DimenBeat/blob/main/.github/workflows/Eula_cn.md)
 > 
