@@ -130,40 +130,42 @@ public class AudioUtils {
 
     public void playListAll(){
         //除非音频列表不为空才执行
-        if (!MusicList.isEmpty()) {
-            thread1 = new Thread(() -> {
-                try {
-                    for (String s : MusicList) {
-                        //尝试读取音频
-                        player = new AudioPlayer(new FileInputStream(FileUtils.getDataFolder() + "assets\\music\\menu\\" + s));
-                        play();
-                        while (true) {
-                            //循环检测，如果音乐播放完毕或收到了中断信号就跳出并执行相关操作
-                            if (!isTimerRunning) {
-                                break;
-                            } else if (Thread.currentThread().isInterrupted()) {
+        if (MusicList != null){
+            if (!MusicList.isEmpty()) {
+                thread1 = new Thread(() -> {
+                    try {
+                        for (String s : MusicList) {
+                            //尝试读取音频
+                            player = new AudioPlayer(new FileInputStream(FileUtils.getDataFolder() + "assets\\music\\menu\\" + s));
+                            play();
+                            while (true) {
+                                //循环检测，如果音乐播放完毕或收到了中断信号就跳出并执行相关操作
+                                if (!isTimerRunning) {
+                                    break;
+                                } else if (Thread.currentThread().isInterrupted()) {
+                                    break;
+                                }
+                            }
+                            if (Thread.currentThread().isInterrupted()) {
+                                //如果音乐还在运行，则关闭音频
+                                if (isTimerRunning) {
+                                    thread1.interrupt();
+                                    isTimerRunning = false;
+                                }
                                 break;
                             }
                         }
-                        if (Thread.currentThread().isInterrupted()) {
-                            //如果音乐还在运行，则关闭音频
-                            if (isTimerRunning) {
-                                thread1.interrupt();
-                                isTimerRunning = false;
-                            }
-                            break;
+                    } catch (JavaLayerException | FileNotFoundException e) {
+                        if (isTimerRunning) {
+                            thread1.interrupt();
+                            isTimerRunning = false;
                         }
+                        close();
+                        logger.error(e.getMessage(), e);
                     }
-                } catch (JavaLayerException | FileNotFoundException e) {
-                    if (isTimerRunning) {
-                        thread1.interrupt();
-                        isTimerRunning = false;
-                    }
-                    close();
-                    logger.error(e.getMessage(), e);
-                }
-            });
-            thread1.start();
+                });
+                thread1.start();
+            }
         }
     }
 
