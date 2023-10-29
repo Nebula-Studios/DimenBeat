@@ -6,13 +6,15 @@ import net.nebula.api.util.FileUtils;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
-@SuppressWarnings({"ResultOfMethodCallIgnored", "SpellCheckingInspection"})
+@SuppressWarnings({"ResultOfMethodCallIgnored"})
 public class Egg extends JavaModAPI {
 
     public static JavaModAPI api;
 
     @Override
     public void onLoad(){
+        //设置模组名称
+        this.ModName = "Egg";
         api = this;
         api.registerEvents(new EggEvent());
     }
