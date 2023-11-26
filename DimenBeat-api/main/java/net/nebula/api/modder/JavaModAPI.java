@@ -1,22 +1,50 @@
 package net.nebula.api.modder;
 
-import net.nebula.api.Configuration.JSONConfiguration;
-import net.nebula.api.Logger.LogAPI;
+import net.nebula.api.Configuration.Configuration;
+import net.nebula.api.GameSystem;
 import net.nebula.api.event.EventListener;
 import net.nebula.api.util.FileUtils;
+import net.nebula.client.Main;
+import net.nebula.client.logger.LoggerManager;
+import org.json.JSONObject;
+
+import java.io.IOException;
 
 /**
  * 模组API
  * <p>
  * 提供了一系列方法来让一个模组正常加载
  */
-public class JavaModAPI extends ModAPI implements Initable {
-    //配置文件(Mod或Plugin)
-    private JSONConfiguration configuration = null;
+public class JavaModAPI implements Initable {
+
+    /**
+     * 游戏版本
+     */
+    public static final String VERSION = Main.AppVersion;
+    /**
+     * 游戏数字版本号
+     */
+    public static final int APPNUMBER = Main.AppNumber;
+    /**
+     * 模组API版本
+     */
+    public static final int APIVERSION = 11;
+    //MOD配置文件
+    private Configuration configuration = null;
     //日志API
-    private LogAPI logAPI = null;
+    private LogModder logAPI = null;
     //mod名字
-    public String ModName;
+    public final String ModName;
+
+    public JavaModAPI(){
+        try {
+            //尝试获取模组名字
+            ModName = new JSONObject(new FileUtils().readJar("mod.json",this.getClass().getClassLoader())).getString("name");
+        } catch (IOException e) {
+            LoggerManager.getLogger().error(e.getMessage());
+            throw new RuntimeException(e);
+        }
+    }
 
     /**
      * 一个 Mod 的加载阶段,第一句是必须是初始化ModName(设置模组名字)
@@ -41,11 +69,11 @@ public class JavaModAPI extends ModAPI implements Initable {
     public void stop() {}
 
     //获得配置文件
-    public final JSONConfiguration getConfig(){
+    final public Configuration getConfig(){
         //如果未初始化配置文件管理器则初始化
         if (configuration == null){
             if (ModName != null){
-                configuration = new JSONConfiguration(FileUtils.getDataFolder()+"config\\mod_"+ModName+".json",ModName);
+                configuration = new Configuration(FileUtils.getDataFolder()+"config\\mod_"+ModName+".json",ModName);
                 return configuration;
             }else {
                 //抛出错误
@@ -59,10 +87,10 @@ public class JavaModAPI extends ModAPI implements Initable {
      * 返回一个日志记录器
      * @return 日志记录器(如果返回null表示没有定义ModName)
      */
-    public final LogAPI getLogger(){
+    public final LogModder getLogger(){
         if (logAPI == null){
             if (ModName != null){
-                logAPI = new LogAPI(ModName);
+                logAPI = new LogModder(ModName);
                 return logAPI;
             }else {
                 //抛出错误
@@ -82,7 +110,7 @@ public class JavaModAPI extends ModAPI implements Initable {
      * @param listener 事件监听器
      */
     public final void registerEvents(final EventListener listener){
-        EventAPI.eventExecuter.registerEventListener(listener);
+        GameSystem.eventExecuter.registerEventListener(listener);
     }
 
     /**
@@ -90,6 +118,6 @@ public class JavaModAPI extends ModAPI implements Initable {
      * @param listener 事件监听器
      */
     public final void unregisterEvents(final EventListener listener){
-        EventAPI.eventExecuter.unregisterEventListener(listener);
+        GameSystem.eventExecuter.unregisterEventListener(listener);
     }
 }

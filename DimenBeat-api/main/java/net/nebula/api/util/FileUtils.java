@@ -14,27 +14,24 @@ public class FileUtils {
      * @return 程序目录路径
      */
     public static @Nullable String getDataFolder(){//提供程序所在路径
-        return net.nebula.util.FileUtils.getDataFolder();
+        File file = new File(".");
+        String path; //程序路径
+        try {
+            path = file.getCanonicalPath() + "\\";
+            return path; //返回
+        }catch (IOException e){
+            return null; //抛出null
+        }
     }
 
     /**
-     * 从MOD的JAR包内读取文件
-     * @param resourcePath MOD的JAR包内相对路径
-     * @return 文件内容
-     * @throws IOException 如果读取发生错误
-     */
-    public String readJar(String resourcePath) throws IOException{
-        return readJar(resourcePath,this.getClass().getClassLoader());
-    }
-
-    /**
-     * 从指定的类加载器指向的包内读取文件
+     * 从指定的类加载器读取文件
      * @param resourcePath JAR包内相对路径
      * @param classLoader 指定的类加载器
      * @return 文件内容
      * @throws IOException 如果读取发生错误
      */
-    public String readJar(String resourcePath, @NotNull ClassLoader classLoader) throws IOException{
+    public static String readJar(String resourcePath, @NotNull ClassLoader classLoader) throws IOException{
         // 使用ClassLoader的getResourceAsStream方法获取资源的输入流
         InputStream inputStream = classLoader.getResourceAsStream(resourcePath);
 
@@ -60,13 +57,13 @@ public class FileUtils {
     /**
      * 获取指定文件夹内所有JAR包的绝对路径
      * @param folderPath 文件夹路径
-     * @return 包含所有JAR包的绝对路径的列表
+     * @return 包含所有JAR包的绝对路径的列表或null(找不到文件夹)
      */
     public static @NotNull List<String> getJarFilePaths(String folderPath) {
         // 创建存储.jar文件绝对路径的列表
         List<String> jarFilePaths = new ArrayList<>();
 
-        // 创建文件对象
+        // 创建文件夹对象
         File folder = new File(folderPath);
 
         // 检查文件夹是否存在,不存在直接返回空列表
