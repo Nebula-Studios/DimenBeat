@@ -1,12 +1,15 @@
-package net.nebula.api.Logger;
+package net.nebula.api.modder;
 
 import net.nebula.client.logger.Logger;
 
-public class LogAPI extends Logger {
+/**
+ * 模组日志API
+ */
+public class LogModder extends Logger {
 
     private final String LogName;//日志记录器标记名
 
-    public LogAPI(String name){
+    public LogModder(String name){
         LogName = name;
     }
 
