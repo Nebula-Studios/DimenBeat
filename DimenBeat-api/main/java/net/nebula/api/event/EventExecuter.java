@@ -1,7 +1,8 @@
 package net.nebula.api.event;
 
+import net.nebula.api.Logger.LogManager;
+import net.nebula.api.Runnable.ThreadRunnable;
 import net.nebula.api.modder.exception.EventException;
-import net.nebula.client.Main;
 import org.jetbrains.annotations.NotNull;
 
 import java.lang.reflect.Method;
@@ -9,7 +10,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 提供事件监听器的 注册/解绑/事件传递
+ * 事件监听器的管理器
+ * <p>
+ * 提供事件监听器的 注册/解绑/事件传递 功能
  */
 public class EventExecuter {
     /**
@@ -100,19 +103,21 @@ public class EventExecuter {
                 try {
                     //如果是异步执行则创建一个新线程来执行
                     if (event.isAsynchronous()){
-                        Thread thread = new Thread(() -> {
-                            try {
-                                method.invoke(listener, event);
-                            } catch (Exception e) {
-                                Main.logger.error(e.getMessage(),new EventException(e));
+                        new ThreadRunnable(){
+                            @Override
+                            public void run(){
+                                try {
+                                    method.invoke(listener, event);
+                                } catch (Exception e) {
+                                    LogManager.getLogger().error(e.getMessage(),new EventException(e));
+                                }
                             }
-                        });
-                        thread.start();
+                        }.runTask(method.getName());
                     }else {
                         method.invoke(listener, event);
                     }
                 } catch (Exception e) {
-                    Main.logger.error(e.getMessage(),new EventException(e));
+                    LogManager.getLogger().error(e.getMessage(),new EventException(e));
                 }
             }
         }

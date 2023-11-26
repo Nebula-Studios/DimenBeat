@@ -5,11 +5,10 @@ import javazoom.jl.player.advanced.AdvancedPlayer;
 
 import java.io.InputStream;
 
+/**
+ * 音乐播放器
+ */
 public class AudioPlayer extends AdvancedPlayer {
-    /**
-     * 默认构造函数
-     * @param stream 指向音频文件的文件流
-     */
     public AudioPlayer(InputStream stream) throws JavaLayerException {
         super(stream);
     }
