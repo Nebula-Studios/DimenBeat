@@ -93,9 +93,8 @@ public class JavaModClassLoader {
             URL jarUrl = new File(file).toURI().toURL();
             try(URLClassLoader classLoader = new URLClassLoader(new URL[]{jarUrl})){
                 //尝试获取mod包内的mod.json文件(存放着模组信息)
-                FileUtils fileUtils = new FileUtils();
                 Configuration configuration = new Configuration(null,null);
-                configuration.setConfig(new JSONObject(fileUtils.readJar("mod.json",classLoader)));
+                configuration.setConfig(new JSONObject(FileUtils.readJar("mod.json",classLoader)));
                 //获取执行类路径(存放于mod的mod.json中，该文件必须在JAR包的根目录下)
                 String mainClassPath = configuration.getString("main");//尝试获取模组指定的执行类路径
                 String modName = configuration.getString("name");//尝试获取模组名字
