@@ -25,10 +25,10 @@ If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
  - OS: [e.g. Windows 10]
+ - Memory: [e.g. 8GB]
+ - CPU: [e.g. i3-7020U]
+ - GPU: [e.g. GeForce GTX 1060]
 
 **Game Details:**
  - Version [e.g. 1.0.0.0]
  - Branch number [e.g. Phosphorus/Titanium/Demo]
-
-**Additional context**
-Add any other context about the problem here.
