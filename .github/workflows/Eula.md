@@ -1,46 +1,51 @@
-# The rhythm of dimensions End User License Agreement
-In order to protect The Rhythm of Dimensions (hereinafter referred to as "Our Games" or "Games") and our community and development members,
-We need this end-user license clause to establish some rules. This license is a legal agreement between you and us (Nebula Studios)
-This agreement describes the terms and conditions of using the game. If you violate these rules, we may stop you from using our game. If we deem it necessary, we will request the assistance of our lawyers
+# DimenBeat End User License Agreement
+In order to protect DimenBeat (hereinafter referred to as "our game" or "game") as well as our community members and development members,
 
-If you purchase, download and play our games, you agree to abide by the provisions of the End-user license agreement (hereinafter referred to as "EULA")
-If you do not agree to these terms, you are not allowed to purchase, download, or play our game. By accepting this EULA, you accept all the terms, so please read this EULA carefully
+We need this end-user license agreement to establish some rules. This license is a legal agreement between you and us (Nebula Studios)
+
+This agreement describes the terms and conditions of using the game. If you violate these rules, we may suspend your use of our game. If we deem it necessary, we may request assistance from our lawyers
+
+If you purchase, download, or play our game, you agree to comply with the provisions of the End User License Agreement (EULA)
+
+If you do not agree to these terms, you are not allowed to purchase, download, or play our game. By accepting this EULA, you accept all terms, so please read this EULA carefully
 
 ## Important regulations
 
-Unless we explicitly agree, you are not allowed to distribute any content we create, such as:
+Unless we explicitly agree, you are not allowed to distribute our games, such as:
   
-* Provide a copy of our game to anyone;
-- Use any content we create for commercial purposes;
-* Attempting to make money through any of our content;
-- Allowing others to access any content belonging to us in an unfair or unreasonable manner;
+* Provide copies of the game to anyone;
+- Using our game for commercial purposes;
+* Attempting to make money through our games;
 
-The term 'game' or 'content we create' includes but is not limited to client or server software, updates, patches, downloadable content, add-on or modified versions, or other content of the game.
-
-In addition, we have very lenient requirements for what you do. In fact, we encourage you to do many things, just don't do things that we stipulate cannot be done.
+"Games" include but are not limited to client or server software, updates, patches, downloadable content, add ons or modified versions, or other content of the game.
 
 ## Using our game
 
-You have obtained the license for this game, so you can use it on your own device.
+You have obtained a license for this game, so you can use it on your own device.
 
-We will also grant you some rights. If you want to create content related to any content we have already created, we are very happy, but please ensure that it is not considered official content and complies with the EULA. **Most importantly, do not use any content that belongs to us for commercial purposes.**
+We will also grant you some rights to create content related to us, but please ensure that it is not considered official content and complies with EULA. 
 
-If you violate any of the terms of this EULA, we can revoke your license and permission to use our game.
+### **Most importantly, do not use our games for commercial purposes**
 
-When you purchase our game, you will receive a license that allows you to install/use the game on your personal device in accordance with the provisions of this EULA. This permission only applies to you, so you cannot distribute the game (or any part of it) to others. And you cannot sell or rent the game, or make it accessible to others, and you cannot transfer or resell any license keys. At the same time, you must help us prevent piracy and protect our games.
+If you violate any of the terms of this EULA, we may revoke your license and permission to use our game.
 
-If you have purchased our game, you can try it out or add music packs (referred to as "music packs"), tools or plugins (collectively referred to as "mods") to make the game more interesting. The so-called "music packet" refers to your or someone else's original/second creation music, while "mod" refers to your original (code) work.
+When you purchase our game, you will receive a license that allows you to install/use the game on your personal device in accordance with the provisions of this EULA. This permission only applies to you and therefore cannot distribute the game (or any part thereof) to others. And you cannot sell or rent the game, or make it accessible to others, and you cannot transfer or resell any license keys.
+
+Meanwhile, you must help us prevent piracy and protect our games.
+
+If you have purchased our game, you can try it out or add music packs (referred to as "music packet"), tools or plugins (collectively referred to as "mods") to make the game more interesting.
 
 We have the final decision on which content constitutes a Mod or music packet and which does not constitute a Mod or music packet.
 
-They do not contain any copyrighted code or substantial parts of the content, and can be used, distributed, or modified at will. If there is any dispute over the music package or Mod you create, we will not be responsible for it
+They do not contain any substantial parts of our copyrighted code or content, and can be used, distributed, or modified at will. We are not responsible for any disputes arising from the music packages or mods you create
 
-As long as there is a legitimate reason, you can use screenshots and videos of the game to do anything you want. But you cannot use it for any commercial purpose, or do anything unfair or unfavorable to us, unless we explicitly allow you to do so in this EULA or in a specific agreement with you. However, if you upload game videos to video websites, you can place advertisements in them.
+As long as there is a legitimate reason, you can use game screenshots and videos to do anything you want. But you cannot use it for any commercial purpose, or do anything unfair or detrimental to us, unless we explicitly allow you to do so in this EULA or in specific agreements signed with you. However, if you upload game videos to video websites, you can place advertisements in them.
 
-Unless we explicitly agree, do not use the content we create for commercial purposes. Of course, if the law explicitly allows it, such as based on the principles of "reasonable use" or "fair dealing", then you can also do so, but only to the extent allowed by applicable law.
+Do not use our game for commercial purposes unless we explicitly agree. Of course, if the law explicitly allows, for example, based on the principles of "fair use" or "fair trade," you can also do so, but only to the extent permitted by applicable law.
 
-To ensure the integrity of the game, we need all game downloads and updates to come from one place: us. We also need to ensure that third-party tools/services are not considered official as we cannot guarantee their quality. This is part of our responsibility towards the Rhythm of Dimensions user.
-At the same time, you are not allowed to anti obfuscate or modify the code of our game, which is very serious. If you do so, you will be stopped from using this game. If we think it is necessary, we will ask our lawyer for help
+To ensure the integrity of the game, we need all game downloads and updates to come from one place: us.
+
+We also need to ensure that third-party tools/services are not considered official, as we cannot guarantee their quality. This is part of our responsibility towards DimenBeat users.
 
 ## Ownership of our games and other content
 
@@ -84,5 +89,3 @@ If you violate any of the terms, we have the right to terminate this EULA. You c
 Your local laws may grant you rights that cannot be changed by this EULA; If this is the case, this EULA will apply to the extent permitted by law. Nothing in this license limits our liability for death or personal injury caused by our negligence or fraudulent misrepresentation.
 
 If there are appropriate reasons, we may change this EULA from time to time, such as changing our games, customs, or legal obligations. But these changes will only take effect to the extent permitted by law. For example, if you only play games in single player mode and do not use the updates we provide, the old EULA will apply; However, if you rely on our continuous online services for updates or certain parts of the game you are using, the new EULA will apply.
-
-If you provide us with suggestions about our game, the suggestion is free and we may not necessarily accept or consider it. And there is no need to pay you any compensation. If you believe that we should pay compensation for your suggestion, please do not submit it unless you have informed us in advance and we have responded in writing requesting that you submit the suggestion.
