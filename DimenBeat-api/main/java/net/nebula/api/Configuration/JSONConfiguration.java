@@ -6,8 +6,8 @@ import org.jetbrains.annotations.Nullable;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.io.*;
-import java.nio.charset.StandardCharsets;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -19,10 +19,9 @@ import java.util.Map;
  * @author 3cxc
  * @since Phosphorus 1.0.2.4
  */
-@SuppressWarnings("unused")
-public class JSONConfiguration {
+public class JSONConfiguration implements Configuration{
 
-    static volatile JSONObject jsonObject;
+    private volatile JSONObject jsonObject;
     private final String configPath;
 
     /**
@@ -45,10 +44,12 @@ public class JSONConfiguration {
         jsonObject = object;
     }
 
+
     /**
      * 覆盖(内存中的)配置文件内容
      * @param json 新的配置文件内容
      */
+    @Override
     final public void setConfig(JSONObject json){
         jsonObject = json;
     }
@@ -57,6 +58,7 @@ public class JSONConfiguration {
      * 覆盖(内存中的)配置文件内容
      * @param map 新的配置文件内容
      */
+    @Override
     final public void setConfig(HashMap<String,Object> map){
         jsonObject = new JSONObject(map);
     }
@@ -65,6 +67,7 @@ public class JSONConfiguration {
      * 覆盖(内存中的)配置文件内容
      * @param map 新的配置文件内容
      */
+    @Override
     final public void setConfig(Map<String,Object> map){
         jsonObject = new JSONObject(map);
     }
@@ -73,6 +76,7 @@ public class JSONConfiguration {
      * 获取配置文件路径
      * @return 返回配置文件的路径
      */
+    @Override
     final public String getPath(){
         return configPath;
     }
@@ -82,14 +86,18 @@ public class JSONConfiguration {
      * <p>
      * 注意：如果无法找到文件或出现异常，则继续使用内存中的配置文件
      */
+    @Override
     public void reloadConfig(){
         if (configPath != null){
+            //缓存内容
+            JSONObject tmp = jsonObject;
             try {
-                File file = new File(configPath);
-                if (file.exists()){
+                if (exists()){
                     jsonObject = JsonWriter.readJson(configPath);
                 }
             }catch (IOException e){
+                //恢复
+                jsonObject = tmp;
                 LoggerManager.getLogger().error(e.getMessage(),e);
             }
         }
@@ -102,6 +110,7 @@ public class JSONConfiguration {
      * @param defaultValue 默认值
      * @return 返回获取到的值(JSON对象的)或者默认值
      */
+    @Override
     final public String getString(String key, String defaultValue) {
         try {
             if (jsonObject.has(key)) {
@@ -109,8 +118,9 @@ public class JSONConfiguration {
             } else {
                 return defaultValue;
             }
-        }catch (Throwable ignored){
+        }catch (Throwable t){
             //防止发生什么意外错误没有默认返回
+            LoggerManager.getLogger().error(t);
             return defaultValue;
         }
     }
@@ -120,10 +130,12 @@ public class JSONConfiguration {
      * @param key JSON项
      * @return 返回获取到的值(JSON对象的)或者null
      */
+    @Override
     final public @Nullable String getString(String key){
         try {
             return jsonObject.getString(key);
-        }catch (Throwable ignored){
+        }catch (Throwable t){
+            LoggerManager.getLogger().error(t);
             return null;
         }
     }
@@ -134,6 +146,7 @@ public class JSONConfiguration {
      * @param defaultValue 默认值
      * @return 返回获取到的值(JSON对象的)或者默认值
      */
+    @Override
     final public int getInt(String key, int defaultValue) {
         try {
             if (jsonObject.has(key)) {
@@ -141,7 +154,8 @@ public class JSONConfiguration {
             } else {
                 return defaultValue;
             }
-        }catch (Throwable ignored){
+        }catch (Throwable t){
+            LoggerManager.getLogger().error(t);
             //防止发生什么意外错误没有默认返回
             return defaultValue;
         }
@@ -152,10 +166,12 @@ public class JSONConfiguration {
      * @param key JSON项
      * @return 返回获取到的值(JSON对象的)或者0
      */
+    @Override
     final public int getInt(String key){
         try {
             return jsonObject.getInt(key);
-        }catch (Throwable ignored){
+        }catch (Throwable t){
+            LoggerManager.getLogger().error(t);
             return 0;
         }
     }
@@ -166,6 +182,7 @@ public class JSONConfiguration {
      * @param defaultValue 默认值
      * @return 返回获取到的值(JSON对象的)或者默认值
      */
+    @Override
     final public boolean getBoolean(String key, Boolean defaultValue) {
         try {
             if (jsonObject.has(key)) {
@@ -173,7 +190,8 @@ public class JSONConfiguration {
             } else {
                 return defaultValue;
             }
-        }catch (Throwable ignored){
+        }catch (Throwable t){
+            LoggerManager.getLogger().error(t);
             //防止发生什么意外错误没有默认返回
             return defaultValue;
         }
@@ -184,10 +202,12 @@ public class JSONConfiguration {
      * @param key JSON项
      * @return 返回获取到的值(JSON对象的)或者false
      */
+    @Override
     final public boolean getBoolean(String key){
         try {
             return jsonObject.getBoolean(key);
-        }catch (Throwable ignored){
+        }catch (Throwable t){
+            LoggerManager.getLogger().error(t);
             return false;
         }
     }
@@ -197,6 +217,7 @@ public class JSONConfiguration {
      * @param key JSON项
      * @return 返回获取到的值(JSON对象的)或者bull
      */
+    @Override
     final public @Nullable List<String> getStringList(String key){
         if (jsonObject != null){
             try {
@@ -224,6 +245,7 @@ public class JSONConfiguration {
      * @param key JSON项
      * @return 返回获取到的值(JSON对象的)或者bull
      */
+    @Override
     final public @Nullable List<Integer> getIntList(String key){
         if (jsonObject != null){
             try {
@@ -251,6 +273,7 @@ public class JSONConfiguration {
      * @param key JSON项
      * @return 返回获取到的值(JSON对象的)或者bull
      */
+    @Override
     final public @Nullable List<Double> getDoubleList(String key){
         if (jsonObject != null){
             try {
@@ -274,63 +297,35 @@ public class JSONConfiguration {
     }
 
     /**
-     * 创建默认配置文件
-     * @return 为true表示创建成功
-     */
-    public boolean createDefaultConfig(){
-        //检查文件路径不为空
-        if (configPath != null){
-            File file = new File(configPath);
-            try (Writer writer = new OutputStreamWriter(new FileOutputStream(file), StandardCharsets.UTF_8)){
-                if (!file.exists()){
-                    //写入空配置
-                    writer.write("{}");
-                    writer.flush();
-                    //关闭流
-                    writer.close();
-                    return true;
-                }else
-                    return false;
-            } catch (IOException e) {
-                LoggerManager.getLogger().error(e.getMessage(),e);
-                return false;
-            }
-        }else {
-            return false;
-        }
-    }
-
-    /**
      * 保存配置文件
      */
+    @Override
     @SuppressWarnings("ResultOfMethodCallIgnored")
     public void saveConfig(){
-        if (configPath != null){
-            if (jsonObject != null){
-                File oldConfig = new File(configPath+".old");
-                File newConfig = new File(configPath+".loc");
-                try{
-                    //先检测有没有更旧的配置文件.如果有先删除
-                    if (oldConfig.exists()){
-                        oldConfig.delete();
-                    }
-                    //原配置文件重命名成旧配置文件
-                    new File(configPath).renameTo(oldConfig);
-                    //如果存在了临时配置文件，避免影响后续写入操作(不存在就创建)
-                    if (!newConfig.exists()){
-                        newConfig.createNewFile();
-                    }
-                    //将内存中配置项写入新配置文件
-                    JsonWriter.writeJson(newConfig.getPath(),jsonObject.toMap());
-                    //重命名新配置文件为(正常的)配置文件
-                    newConfig.renameTo(new File(configPath));
-                }catch (IOException e) {
-                    LoggerManager.getLogger().error(e.getMessage(),e);
-                    //清除临时文件
-                    newConfig.delete();
-                    //回退配置文件
-                    oldConfig.renameTo(new File(configPath));
+        if (configPath != null & jsonObject != null){
+            File oldConfig = new File(configPath+".old");
+            File newConfig = new File(configPath+".loc");
+            try{
+                //先检测有没有更旧的配置文件.如果有先删除
+                if (oldConfig.exists()){
+                    oldConfig.delete();
                 }
+                //原配置文件重命名成旧配置文件
+                new File(configPath).renameTo(oldConfig);
+                //如果存在了临时配置文件，先删除，避免影响后续写入操作(不存在就创建)
+                if (!newConfig.exists()){
+                    newConfig.createNewFile();
+                }
+                //将内存中配置项写入新配置文件
+                JsonWriter.writeJson(newConfig.getPath(),jsonObject.toMap());
+                //重命名新配置文件为(正常的)配置文件
+                newConfig.renameTo(new File(configPath));
+            }catch (IOException e) {
+                LoggerManager.getLogger().error(e.getMessage(),e);
+                //清除临时文件
+                newConfig.delete();
+                //回退配置文件
+                oldConfig.renameTo(new File(configPath));
             }
         }
     }
@@ -339,13 +334,12 @@ public class JSONConfiguration {
      * 检查配置文件是否已创建
      * @return 为true表示文件已存在，为false表示文件不存在或路径为null
      */
+    @Override
     final public boolean exists(){
         if (configPath != null){
-            File file = new File(configPath);
-            return file.exists();
-        }else {
-            return false;
+            return new File(configPath).exists();
         }
+        return false;
     }
 
     /**
@@ -353,6 +347,7 @@ public class JSONConfiguration {
      * @param key 键
      * @param value 对应的值
      */
+    @Override
     final public void put(String key,Object value){
         if (jsonObject != null){
             jsonObject.put(key, value);
@@ -364,6 +359,7 @@ public class JSONConfiguration {
      * @param key 键
      * @param value 对应的值
      */
+    @Override
     final public void put(String key, boolean value){
         if (jsonObject != null){
             jsonObject.put(key, value);
@@ -375,6 +371,7 @@ public class JSONConfiguration {
      * @param key 键
      * @param value 对应的值
      */
+    @Override
     final public void put(String key, double value){
         if (jsonObject != null){
             jsonObject.put(key, value);
@@ -386,6 +383,7 @@ public class JSONConfiguration {
      * @param key 键
      * @param value 对应的值
      */
+    @Override
     final public void put(String key, float value){
         if (jsonObject != null){
             jsonObject.put(key, value);
@@ -397,6 +395,7 @@ public class JSONConfiguration {
      * @param key 键
      * @param value 对应的值
      */
+    @Override
     final public void put(String key, int value) {
         if (jsonObject != null){
             jsonObject.put(key, value);
@@ -408,6 +407,7 @@ public class JSONConfiguration {
      * @param key 键
      * @param value 对应的值
      */
+    @Override
     final public void put(String key, long value) {
         if (jsonObject != null){
             jsonObject.put(key, value);
@@ -419,6 +419,7 @@ public class JSONConfiguration {
      * @param key 键
      * @param value 对应的值
      */
+    @Override
     final public void put(String key, Map<?, ?> value) {
         if (jsonObject != null){
             jsonObject.put(key, value);
@@ -430,6 +431,7 @@ public class JSONConfiguration {
      * 从配置文件中删除一个键及其对应的值
      * @param key 键
      */
+    @Override
     final public void remove(String key){
         if (jsonObject != null){
             jsonObject.remove(key);
