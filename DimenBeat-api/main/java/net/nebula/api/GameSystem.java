@@ -17,7 +17,7 @@ public abstract class GameSystem {
      * <p>
      * 空闲线程存活时间为60秒
      */
-    public static volatile CoreThreadExcutor EventThreadExcutor = new CoreThreadExcutor("Event",32,8,16,60,CoreThreadExcutor.defaultThreadFactory());
+    public static volatile CoreThreadExcutor ThreadExcutor = new CoreThreadExcutor("Event",32,8,16,60,CoreThreadExcutor.defaultThreadFactory());
 
 
 }

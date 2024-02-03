@@ -4,7 +4,7 @@
    "system.load":"游戏加载完成!",
    "system.load.text1":"游戏版本为 ",
    "system.load.text2":"开始加载游戏...",
-   "system.load.config":"配置文件生成完成!",
+   "system.load.config":"配置文件加载完成!",
    "system.load.mod.text1":"检测到游戏的API版本与该mod的API版本不匹配,可能存在兼容性问题!",
    "system.load.mod.text2":"游戏的模组API版本是: ",
    "system.load.mod.text3":"但模组在构建时使用的API版本是: ",
