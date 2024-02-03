@@ -22,7 +22,7 @@ public abstract class JavaModAPI implements JavaMod {
     //日志API
     private Logger logAPI = null;
     //mod名字
-    private volatile String ModName;
+    protected volatile String ModName;
 
     /**
      * 一个 Mod 的加载阶段,第一句是必须是初始化ModName(设置模组名字)
