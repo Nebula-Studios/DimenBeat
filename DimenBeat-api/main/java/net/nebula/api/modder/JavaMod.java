@@ -30,5 +30,5 @@ interface JavaMod {
     /**
      * 模组API版本
      */
-    public static final int APIVERSION = 11;
+    public static final int APIVERSION = 12;
 }
