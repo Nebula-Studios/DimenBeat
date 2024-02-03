@@ -1,8 +1,9 @@
 package net.nebula.api.event;
 
-import net.nebula.api.Logger.LogManager;
+import net.nebula.api.Logger.LoggerManager;
 import net.nebula.api.Runnable.ThreadRunnable;
 import net.nebula.api.modder.exception.EventException;
+import net.nebula.api.Logger.Logger;
 import org.jetbrains.annotations.NotNull;
 
 import java.lang.reflect.Method;
@@ -24,6 +25,11 @@ public class EventExecuter {
      */
     private final Map<Class<?>, Map<EventListener, Method>> eventListeners;
 
+    private final Logger logger;
+
+    //线程计数器
+    private static volatile int counter = 0;
+
     /**
      * 默认构造方法
      * <p>
@@ -32,6 +38,10 @@ public class EventExecuter {
     public EventExecuter() {
         //设置默认大小为256
         eventListeners = new HashMap<>(256);
+        logger = new LoggerManager("EventExecuter-"+counter);
+        synchronized (this){
+            counter++;
+        }
     }
 
     /**
@@ -43,6 +53,10 @@ public class EventExecuter {
     public EventExecuter(int initialCapacity) {
         //设置默认大小为256
         eventListeners = new HashMap<>(initialCapacity);
+        logger = new LoggerManager("EventExecuter-"+counter);
+        synchronized (this){
+            counter++;
+        }
     }
 
     /**
@@ -109,7 +123,7 @@ public class EventExecuter {
                                 try {
                                     method.invoke(listener, event);
                                 } catch (Exception e) {
-                                    LogManager.getLogger().error(e.getMessage(),new EventException(e));
+                                    logger.error(e.getMessage(),new EventException(e));
                                 }
                             }
                         }.runTask(method.getName());
@@ -117,7 +131,7 @@ public class EventExecuter {
                         method.invoke(listener, event);
                     }
                 } catch (Exception e) {
-                    LogManager.getLogger().error(e.getMessage(),new EventException(e));
+                    logger.error(e.getMessage(),new EventException(e));
                 }
             }
         }
