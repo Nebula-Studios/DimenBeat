@@ -7,6 +7,7 @@ import net.nebula.api.Logger.Logger;
 import net.nebula.api.Logger.LoggerManager;
 import net.nebula.api.event.EventListener;
 import net.nebula.api.util.FileUtils;
+import net.nebula.util.JsonWriter;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -17,17 +18,23 @@ import java.nio.charset.StandardCharsets;
  * 提供了一系列方法来让一个模组正常加载
  */
 public abstract class JavaModAPI implements JavaMod {
-    //MOD配置文件
+    /**
+     * 模组配置文件
+     */
     private Configuration configuration = null;
-    //日志API
+    /**
+     * 模组日志管理器
+     */
     private Logger logAPI = null;
-    //mod名字
+    /**
+     * 模组名称
+     */
     protected static volatile String ModName;
 
     /**
      * 一个 Mod 的加载阶段,第一句是必须是初始化ModName(设置模组名字)
-     * <p>加载阶段执行完了之后才会执行运行阶段
-     * <p>且 Mod 的事件注册必须在Load阶段完成
+     * <p>
+     * 加载阶段执行完了之后才会执行运行阶段
      */
     @Override
     public void onLoad() {}
@@ -50,7 +57,11 @@ public abstract class JavaModAPI implements JavaMod {
         return this;
     }
 
-    //获得配置文件
+    /**
+     * 获取模组配置文件
+     * @return 模组配置文件
+     * @exception NullPointerException 如果未指定模组名称(ModName)
+     */
     @Override
     final public Configuration getConfig(){
         //如果未初始化配置文件管理器则初始化
@@ -60,7 +71,7 @@ public abstract class JavaModAPI implements JavaMod {
                 return configuration;
             }else {
                 //抛出错误
-                throw new RuntimeException(new NullPointerException("Invalid mod loading"));
+                throw new RuntimeException(new NullPointerException("Invalid mod loading,Reason: mod name is null"));
             }
         }
         return configuration;
@@ -68,8 +79,8 @@ public abstract class JavaModAPI implements JavaMod {
 
     /**
      * 返回一个日志记录器
-     *
      * @return 日志记录器(如果返回null表示没有定义ModName)
+     * @exception NullPointerException 如果未指定模组名称(ModName)
      */
     @Override
     final public Logger getLogger(){
@@ -79,7 +90,7 @@ public abstract class JavaModAPI implements JavaMod {
                 return logAPI;
             }else {
                 //抛出错误
-                throw new RuntimeException(new NullPointerException("Invalid mod loading"));
+                throw new RuntimeException(new NullPointerException("Invalid mod loading,Reason: mod name is null"));
             }
         }
         return logAPI;
@@ -122,8 +133,10 @@ public abstract class JavaModAPI implements JavaMod {
     public boolean createDefaultConfig(){
         File file = new File(FileUtils.getDataFolder()+"config\\mod_"+ModName+".json");
         if (!file.exists()){
-            try(Writer writer = new OutputStreamWriter(new FileOutputStream(file), StandardCharsets.UTF_8)){
-                writer.write(FileUtils.readJar("config.json",this.getClass().getClassLoader()));//使用模组的Class加载器来读取包文件
+            try(Writer writer = new OutputStreamWriter(new FileOutputStream(file), StandardCharsets.UTF_8)){//使用模组的Class加载器来读取包文件
+                //获取并格式化json
+                String jsonString = JsonWriter.formatJson(FileUtils.readJar("config.json",this.getClass().getClassLoader()));
+                writer.write(jsonString);
                 writer.flush();
                 return true;
             }catch (IOException e){
