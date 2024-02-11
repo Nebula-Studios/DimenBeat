@@ -28,7 +28,14 @@ interface JavaMod {
      */
     public static final int APPNUMBER = Main.AppNumber;
     /**
-     * 模组API版本
+     * API正式版本号
      */
     public static final int APIVERSION = 12;
+
+    /**
+     * API预览版本号
+     * <p>
+     * 如果该变量为0表示API为正式版，不为0则是预览版
+     */
+    public static final int API_DEV_VERSION = 2;
 }
