@@ -14,4 +14,4 @@
 > 
 > [User End Agreement](https://github.com/Nebula-Studios/DimenBeat/blob/main/.github/workflows/Eula.md)
 > 
-> Copyright © 2023 Nebula-Studios All Rights Reserved
+> Copyright © 2023-2024 Nebula-Studios All Rights Reserved
