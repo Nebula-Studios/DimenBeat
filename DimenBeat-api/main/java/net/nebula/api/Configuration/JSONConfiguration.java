@@ -303,6 +303,7 @@ public class JSONConfiguration implements Configuration{
     @SuppressWarnings("ResultOfMethodCallIgnored")
     public void saveConfig(){
         if (configPath != null & jsonObject != null){
+            File config = new File(configPath);
             File oldConfig = new File(configPath+".old");
             File newConfig = new File(configPath+".loc");
             try{
@@ -311,7 +312,7 @@ public class JSONConfiguration implements Configuration{
                     oldConfig.delete();
                 }
                 //原配置文件重命名成旧配置文件
-                new File(configPath).renameTo(oldConfig);
+                config.renameTo(oldConfig);
                 //如果存在了临时配置文件，先删除，避免影响后续写入操作(不存在就创建)
                 if (!newConfig.exists()){
                     newConfig.createNewFile();
@@ -319,13 +320,15 @@ public class JSONConfiguration implements Configuration{
                 //将内存中配置项写入新配置文件
                 JsonWriter.writeJson(newConfig.getPath(),jsonObject.toMap());
                 //重命名新配置文件为(正常的)配置文件
-                newConfig.renameTo(new File(configPath));
+                newConfig.renameTo(config);
+                //删除旧配置文件
+                oldConfig.delete();
             }catch (IOException e) {
                 LoggerManager.getLogger().error(e.getMessage(),e);
                 //清除临时文件
                 newConfig.delete();
                 //回退配置文件
-                oldConfig.renameTo(new File(configPath));
+                oldConfig.renameTo(config);
             }
         }
     }
