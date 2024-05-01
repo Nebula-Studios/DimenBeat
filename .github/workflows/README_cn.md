@@ -4,6 +4,8 @@
 [![Latest Release](https://img.shields.io/github/v/release/Nebula-Studios/DimenBeat)](https://github.com/Nebula-Studios/DimenBeat)
 ![Author](https://img.shields.io/badge/Author-3cxc,Bustling114,GA-blue.svg)
 
+> **该早期项目已经停止维护！**
+
 **中文** | [English](https://github.com/Nebula-Studios/DimenBeat/blob/main/README.md)
 
 > 介绍:
