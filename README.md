@@ -1,4 +1,4 @@
-![image](https://github.com/Nebula-Studios/DimenBeat/assets/81449257/3a0dce8d-d6a8-49ef-bd9d-3237cbb0f5bf)# DimenBeat
+# DimenBeat
  
 --------
 [![Latest Release](https://img.shields.io/github/v/release/Nebula-Studios/DimenBeat)](https://github.com/Nebula-Studios/DimenBeat)
