@@ -1,8 +1,10 @@
-# DimenBeat
+![image](https://github.com/Nebula-Studios/DimenBeat/assets/81449257/3a0dce8d-d6a8-49ef-bd9d-3237cbb0f5bf)# DimenBeat
  
 --------
 [![Latest Release](https://img.shields.io/github/v/release/Nebula-Studios/DimenBeat)](https://github.com/Nebula-Studios/DimenBeat)
 ![Author](https://img.shields.io/badge/Author-3cxc,Bustling114,GA-blue.svg)
+
+> **This early project has been discontinued for maintenance！**
 
 **English** | [中文](https://github.com/Nebula-Studios/DimenBeat/blob/main/.github/workflows/README_cn.md)
 
