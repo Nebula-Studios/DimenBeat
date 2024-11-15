@@ -4,8 +4,6 @@
 [![Latest Release](https://img.shields.io/github/v/release/Nebula-Studios/DimenBeat)](https://github.com/Nebula-Studios/DimenBeat)
 ![Author](https://img.shields.io/badge/Maintainer-3cxc,Ahas,sahuang,Bustling114,GA-blue.svg)
 
-**中文** | [English](https://github.com/Nebula-Studios/DimenBeat/blob/main/README_EN.md)
-
 > 前言
 > 
 > 本仓库是关于 维度的节奏(DimenBeat) 游戏的相关问题仓库
