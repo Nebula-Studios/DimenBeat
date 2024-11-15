@@ -1,91 +1,79 @@
-# DimenBeat End User License Agreement
-In order to protect DimenBeat (hereinafter referred to as "our game" or "game") as well as our community members and development members,
+# DimenBeat 最终用户许可协议
 
-We need this end-user license agreement to establish some rules. This license is a legal agreement between you and us (Nebula Studios)
+# 前言
 
-This agreement describes the terms and conditions of using the game. If you violate these rules, we may suspend your use of our game. If we deem it necessary, we may request assistance from our lawyers
+本协议为 Nebula Studios(下称"我们")与您就维度的节奏(以下简称"我们的游戏"或"游戏")的使用所签订的法律协议。
 
-If you purchase, download, or play our game, you agree to comply with the provisions of the End User License Agreement (EULA)
+如果您购买、下载、游玩我们的游戏，即表示您同意遵守最终用户许可协议 (以下简称"协议") 中的规定. 如果您不同意本条款，则不得购买、下载、游玩我们的游戏。接受本协议即表示您接受所有条款,因此请仔细阅读本协议。
 
-If you do not agree to these terms, you are not allowed to purchase, download, or play our game. By accepting this EULA, you accept all terms, so please read this EULA carefully
+# 总则
 
-## Important regulations
+**(1.1)** "我们的游戏"或"游戏"包括但不限于游戏的客户端或服务器软件、更新、补丁、可下载内容、加载项或修改版本，或其他内容。
 
-Unless we explicitly agree, you are not allowed to distribute our games, such as:
-  
-* Provide copies of the game to anyone;
-- Using our game for commercial purposes;
-* Attempting to make money through our games;
+**(1.2)** 当您购买我们的游戏时，实际上您购买的是根据本协议游玩/使用 我们的游戏的许可，而不是游戏本身。您拥有的与游戏及安装有关的权限是本协议中规定的权限。**我们仍然是游戏(包括其包含的任何内容)的所有者。**
 
-"Games" include but are not limited to client or server software, updates, patches, downloadable content, add ons or modified versions, or other content of the game.
+**(1.3)** 当您购买我们的游戏时，您会收到许可，该许可允许您按照本协议的规定在自己的个人设备上 安装/使用 游戏的权限。该权限仅适用于您本人，因此不能将游戏（或其中的任一部分）分发给其他人。并且您不能出售或出租游戏，或让其可供其他人访问，也不能转让或转售任何许可密钥。
 
-## Using our game
+**(1.4)** 您不得分发我们的游戏，例如: **(1)** 向任何人提供游戏的副本。 **(2)** 将我们的游戏用于商业用途。
 
-You have obtained a license for this game, so you can use it on your own device.
+**(1.5) 如果您违反本协议的任何条款，我们可以撤销授权您使用我们的游戏的许可和权限。**
 
-We will also grant you some rights to create content related to us, but please ensure that it is not considered official content and complies with EULA. 
+**(1.6) 我们保留本协议的最终解释权。**
 
-### **Most importantly, do not use our games for commercial purposes**
+# 内容
 
-If you violate any of the terms of this EULA, we may revoke your license and permission to use our game.
+**(2.1)** 我们允许您创建与我们相关的内容，但请确保它不会被认为是官方内容，并且符合本协议。
 
-When you purchase our game, you will receive a license that allows you to install/use the game on your personal device in accordance with the provisions of this EULA. This permission only applies to you and therefore cannot distribute the game (or any part thereof) to others. And you cannot sell or rent the game, or make it accessible to others, and you cannot transfer or resell any license keys.
+**(2.2)** 您基于我们的游戏所二次创作的任何内容(以下简称为"二创内容")，都是您的原创作品，不包含我们代码或内容的实质部分。您只拥有您创建的内容，而不拥有我们的代码或内容。
 
-Meanwhile, you must help us prevent piracy and protect our games.
+**(2.2.1)** 我们对哪些内容构成二创内容，哪些不构成二创内容拥有最终决定权。
 
-If you have purchased our game, you can try it out or add music packs (referred to as "music packet"), tools or plugins (collectively referred to as "mods") to make the game more interesting.
+**(2.2.2)** 您的二创内容必须是您自己的作品，或者您有这么做的权利。
 
-We have the final decision on which content constitutes a Mod or music packet and which does not constitute a Mod or music packet.
+**(2.2.3)** 您可以随意使用、分发、修改二创内容，或者将二创内容用于商业用途。
 
-They do not contain any substantial parts of our copyrighted code or content, and can be used, distributed, or modified at will. We are not responsible for any disputes arising from the music packages or mods you create
+**(2.4)** 只要有正当理由，您可以使用游戏的屏幕截图和视频做任何您想做的事情。但您不能将其用于任何商业用途，或者做任何不公平或对我们不利的事情，除非我们在本协议或与您签订的特定协议中明确允许您这么做。不过，如果您向视频网站上传游戏视频，您可以在其中放置广告。
 
-As long as there is a legitimate reason, you can use game screenshots and videos to do anything you want. But you cannot use it for any commercial purpose, or do anything unfair or detrimental to us, unless we explicitly allow you to do so in this EULA or in specific agreements signed with you. However, if you upload game videos to video websites, you can place advertisements in them.
+**(2.5)** 如果您公开发布任何与我们的游戏相关的内容，则表示您同意授予我们使用、复制、修改、调整、分发和公开显示该内容的权限。您不是放弃对您的内容的所有权，您只是授予我们使用该内容的权限。如果您不想授予我们这些权限，请不要公开发布任何与我们的游戏相关的内容。
 
-Do not use our game for commercial purposes unless we explicitly agree. Of course, if the law explicitly allows, for example, based on the principles of "fair use" or "fair trade," you can also do so, but only to the extent permitted by applicable law.
+**(2.6) 我们保留撤下任何与我们的游戏相关的内容的权利。**
 
-To ensure the integrity of the game, we need all game downloads and updates to come from one place: us.
+# 更新
 
-We also need to ensure that third-party tools/services are not considered official, as we cannot guarantee their quality. This is part of our responsibility towards DimenBeat users.
+**(3.1)** 我们可以不时发布升级，更新和补丁（统称为"更新"），但我们不一定要这么做。我们也没有义务对任何游戏提供持续支持或维护。当然，我们希望继续为我们的游戏发布更新，我们只是不能保证一定会这么做。
 
-## Ownership of our games and other content
+**(3.2)** 我们不向您承诺关于游戏的标准或质量，也不承诺游戏将不会中断或不含错误。我们不对游戏可能造成的任何损失或损坏负责。您对游戏的质量和性能承担全部责任。我们可能会在游戏完成之前发布游戏，因此它们可能（而且经常会）包含 BUG，但我们更愿意提前发布这些功能而不是让您长时间的等待。
 
-Although we grant you permission to install and play our game on your device, we remain the owner of the game (including any content it contains). Therefore, when you purchase our game, you are actually purchasing a license to play/use our game under this EULA, not the game itself. The permissions you have related to games and installations are the permissions specified in this EULA.
 
-Any music packets or mods you create for the game from scratch belong to you, and you can perform any action on them as long as you don't make money by selling them/trying to make money from them. Remember, music packets and mods are all your original works and do not contain any substantial parts of our code or content. You only own the content you create, not our code or content.
+# 责任和管辖法律
 
-## Content
+**(4.1)** 本协议中的条款不影响根据法律您可能享有的有关游戏的任何合法（法定）权利。您可能享有某些适用于您的法律规定不能免除的权利。这些条款中的任何规定都不会影响那些法定权利，即使这些规定可能与您的法定权利相冲突也是如此。
 
-If you publish any content in or through our game, you agree to grant us permission to use, copy, modify, adjust, distribute, and publicly display the content. And you also agree that we allow others to use, copy, modify, adjust, distribute, and publicly display your content. You are not giving up ownership of your content, you are only granting us and other users permission to use the content.
+**(4.2) 本协议的解释和违反本协议的索赔受中国法律管辖，不受冲突法原则限制。所有其他索赔和争议（包括与消费者保护法、不正当竞争法以及侵权行为有关的索赔，以及与我们的游戏相关的争议），应受您所在国家/地区的法律管辖，不受冲突法原则限制。**
 
-For example, we may need to copy, reformat, and distribute the content you post on our website. If you do not want to grant us these permissions, please do not publish any content in or through our game. Please carefully consider before publishing any content, as the content will be made public and may even be maliciously used by others.
+# 终止 
 
-If you plan to publish content in or through our game, the content must not offend others or be illegal, and must be genuine.
+**(5.1)** 如果您违反任何条款，我们有权终止本协议。您也可以随时终止它；为此，您只需要从设备中卸载游戏即可，本协议将自行终止。
 
-You are not allowed to use our game to post illegal content, such as posts containing racist or homophobic comments; Bullying or tempting posts; Posts that are offensive or damage our or others' reputation; Posts containing pornographic descriptions or other people's works or images; Pretending to be a moderator or attempting to deceive or exploit others' posts.
+**(5.2)** 如果本协议终止，您将不再享有本许可中赋予的任何游戏权利。
 
-Any content you post in our game must also be your own work, or you have the right to do so. And you cannot use our game to publish any content that infringes on the rights of others.
+**(5.2.1)** 即使本协议终止，您在玩游戏的过程中基于我们的游戏所二次创作的任何内容，只要不违反 **(3.2)条和(3.2.2)条**，它们仍然属于您的原创作品。
 
-We reserve the right to remove any content.
+**(5.3) 即使在本协议终止后，有关"我们游戏的所有权"、"我们的责任"和"一般条款"的段落也将继续适用。**
 
-**If you are talking to people in our game, please be careful. It is difficult for both you and us to determine which words people say are true, or even whether they match their claimed identity. Before telling people about your own privacy information, you should think twice before acting.**
+# 一般条款
 
-## Update
+**(6.1)** 您当地的法律可能会赋予您本协议无法更改的权利；如果是这样情况，本协议将在法律允许的范围内适用。 
 
-We can release upgrades, updates, or patches from time to time (collectively referred to as "updates"), but we do not necessarily have to do so. We also have no obligation to provide continuous support or maintenance for any game. Of course, we hope to continue releasing new updates for our game, but we just cannot guarantee that we will do so. The changes included in the update may not be applicable to other software, such as music packet or mod. We regret this, but we will not take responsibility for it.
+**(6.2)** 本许可中的任何条款都不会限制我们对因我们的过失或欺诈性虚假陈述而导致的死亡或人身伤害的责任。  
 
-## Liability and Governing Law
+**(6.3)** 如果有适当理由，我们可能会不时更改本协议，例如更改我们的游戏、惯例或法律义务。但这些更改只在法律允许的范围内生效。
 
-The terms of this EULA do not affect any legal (statutory) rights you may have in relation to the game under the law. You may have certain rights that cannot be exempted by legal provisions applicable to you. Any provision in these terms will not affect those statutory rights, even if these provisions may conflict with your statutory rights. When we say 'according to applicable law', that's what we mean.
+**(6.4)** 当本协议更新时，如果您不使用我们提供的更新，那么将适用旧协议；但是如果您使用更新或者所用游戏的某些部分依赖我们提供的持续在线服务，那么新协议将适用。
 
-According to applicable laws, when you obtain a copy of our game, we provide it as is. Updates are also provided as is. This means that we do not promise you the standards or quality of the game, nor do we promise that the game will not be interrupted or contain errors. We are not responsible for any losses or damages that may be caused by the game. You take full responsibility for the quality and performance of the game. We may release games before they are completed, so they may (and often do) contain bugs, but we would prefer to release these features in advance rather than keeping you waiting for a long time. If you would like to notify us of a potential bug, we have provided a dedicated [Website](https://github.com/Nebula-Studios/The-rhythm-of-dimensions/issues).
+**(6.5)** 本协议所有条款的标题仅为方便阅读，本身并无实际涵义，不能作为本协议及相关条款涵义解释的依据。
 
-The interpretation of this EULA and claims for breach of this agreement shall be governed by Chinese law and shall not be limited by the principles of conflict of laws. All other claims and disputes (including claims related to consumer protection laws, unfair competition laws and torts, as well as disputes related to our games) shall be governed by the laws of your country/region, not subject to the principles of conflict of laws.
+**(6.6) 如本协议中的任何条款因任何原因被判定为完全或部分无效或不具有执行力的，本协议的其他条款仍应有效并且有执行力。**
 
-## Termination
 
-If you violate any of the terms, we have the right to terminate this EULA. You can also terminate it at any time; To achieve this, you only need to uninstall the game from your device, and EULA will terminate on its own. If EULA terminates, you will no longer enjoy any gaming rights granted in this license. However, you still have the right to create your own content while playing the game. Even after the termination of the EULA, the paragraphs regarding "ownership of our game", "our responsibility", and "general terms" will continue to apply.
 
-## General terms
-Your local laws may grant you rights that cannot be changed by this EULA; If this is the case, this EULA will apply to the extent permitted by law. Nothing in this license limits our liability for death or personal injury caused by our negligence or fraudulent misrepresentation.
-
-If there are appropriate reasons, we may change this EULA from time to time, such as changing our games, customs, or legal obligations. But these changes will only take effect to the extent permitted by law. For example, if you only play games in single player mode and do not use the updates we provide, the old EULA will apply; However, if you rely on our continuous online services for updates or certain parts of the game you are using, the new EULA will apply.
