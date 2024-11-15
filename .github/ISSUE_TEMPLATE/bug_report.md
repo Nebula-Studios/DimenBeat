@@ -1,6 +1,6 @@
 ---
 name: 游戏BUG反馈
-about: 游戏没有正常运行/游玩发生不正常行为
+about: 游戏没有正常运行/游戏过程中发生异常行为
 title: ''
 labels: Bug, 新反馈
 assignees: ''
