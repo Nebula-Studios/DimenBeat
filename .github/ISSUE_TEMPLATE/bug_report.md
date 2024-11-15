@@ -1,34 +1,31 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: game bug report
-labels: bug
+name: 游戏BUG反馈
+about: 游戏没有正常运行/游戏过程中发生异常行为
+title: ''
+labels: Bug, 新反馈
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**描述**
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+详细说明这个BUG
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**BUG复现**
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+BUG复现的步骤(如果不知道怎么复现则只上传错误报告):
+1. 点击xxx
+2. 修改xxx
 
-**Desktop (please complete the following information):**
- - OS: [e.g. Windows 10]
- - Memory: [e.g. 8GB]
- - CPU: [e.g. i3-7020U]
- - GPU: [e.g. GeForce GTX 1060]
+**版本信息**
+ - 客户端版本信息，例如: 1.0
+ - 系统版本，例如Windows 10
 
-**Game Details:**
- - Version [e.g. 1.0.0.0]
- - Branch number [e.g. Phosphorus/Titanium/Demo]
+**硬件信息**
+- CPU型号，例如: Intel(R) Core(TM) i3-7020U @ 2.30 GHz
+- 内存大小，例如: 4GB DDR3
+- 显卡型号，例如: Nvidia GeForce GT 710(如果用的是核显就写核显的型号)
+
+**日志和附件**
+
+上传客户端的日志文件(要包含相关错误信息，如果不上传日志则不会处理)

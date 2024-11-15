@@ -1,19 +1,23 @@
-# DimenBeat
+# 维度的节奏(DimenBeat)
  
 --------
 [![Latest Release](https://img.shields.io/github/v/release/Nebula-Studios/DimenBeat)](https://github.com/Nebula-Studios/DimenBeat)
-![Author](https://img.shields.io/badge/Author-3cxc,Bustling114,GA-blue.svg)
+![Author](https://img.shields.io/badge/Maintainer-3cxc,Ahas,sahuang,Bustling114,GA-blue.svg)
 
-> **This early project has been discontinued for maintenance！**
+> 前言
+> 
+> 本仓库是关于 维度的节奏(DimenBeat) 游戏的相关问题仓库
+> 
+> 负责收集与本游戏相关的问题(或建议)
+> 
+--------
+**游戏介绍:**
 
-**English** | [中文](https://github.com/Nebula-Studios/DimenBeat/blob/main/.github/workflows/README_cn.md)
+**《维度的节奏》是 Nebula Studios(星云工作室) 首次制作，发布的一个免费原创视觉小说**
 
-> Preface:
-> 
-> “DimenBeat” is a translational-style pseudo 3D rhythm game that combines elements of music gaming, multiplayer battles, and the anime subculture. It also features a creative workshop that supports the development of third-party mods and music packs through an accessible API.
-> 
-> [Detailed website](https://3cxc.itch.io/DimenBeat)
-> 
-> [User End Agreement](https://github.com/Nebula-Studios/DimenBeat/blob/main/.github/workflows/Eula.md)
-> 
+**一个失忆少女在已经成为废墟的世界醒来，为了揭开这个世界的谜团和自己失去的记忆而不断冒险**
+
+--------
+[Steam商店页](https://store.steampowered.com/app/2919180/DimenBeat) | [Bilibili官方账号](https://space.bilibili.com/3546784620087914) | [最终用户许可协议](https://github.com/Nebula-Studios/DimenBeat/blob/main/.github/workflows/Eula.md)
+ 
 > Copyright © 2023-2024 Nebula-Studios All Rights Reserved
