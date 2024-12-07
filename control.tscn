@@ -1,0 +1,276 @@
+[gd_scene load_steps=21 format=3 uid="uid://cr83i1siegyyu"]
+
+[ext_resource type="Script" path="res://control.gd" id="1_yafpi"]
+[ext_resource type="Texture2D" uid="uid://cf54eh70nqfid" path="res://assets/image/picture/background/background1.png" id="2_rqqfh"]
+[ext_resource type="AudioStream" uid="uid://bcj5qo7icyvg2" path="res://assets/audio/bgm/backlight.mp3" id="3_th71s"]
+[ext_resource type="FontFile" uid="uid://bxfcw16dlrvjg" path="res://assets/font/Yozai.ttf" id="4_0srsh"]
+[ext_resource type="Texture2D" uid="uid://dfmqucrn3pq48" path="res://assets/image/picture/ui/title/element_1.png" id="5_swgpt"]
+[ext_resource type="Texture2D" uid="uid://17vno057du00" path="res://assets/image/picture/ui/title/element_4.png" id="6_xeyr2"]
+[ext_resource type="FontFile" uid="uid://c5rfjmpasl2hr" path="res://assets/font/Source_Han_Sans.ttf" id="7_52fxy"]
+[ext_resource type="Script" path="res://scripts/buttons/menu/start.gd" id="7_ws3ik"]
+[ext_resource type="Script" path="res://scripts/texts/ui/menu/buttons/start.gd" id="9_dhxrj"]
+[ext_resource type="Script" path="res://scripts/texts/ui/menu/player_id.gd" id="9_wi1af"]
+[ext_resource type="Script" path="res://scripts/texts/ui/menu/buttons/load.gd" id="11_071ga"]
+[ext_resource type="Script" path="res://scripts/buttons/menu/quit.gd" id="11_vcdra"]
+[ext_resource type="Script" path="res://scripts/texts/ui/menu/buttons/dev.gd" id="12_vbx0h"]
+[ext_resource type="Script" path="res://scripts/texts/ui/menu/buttons/settings.gd" id="13_smkij"]
+[ext_resource type="Script" path="res://scripts/texts/ui/menu/buttons/quit.gd" id="15_o8yex"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_f5nvu"]
+font = ExtResource("4_0srsh")
+font_size = 100
+
+[sub_resource type="LabelSettings" id="LabelSettings_dryp4"]
+font = ExtResource("4_0srsh")
+font_size = 70
+
+[sub_resource type="LabelSettings" id="LabelSettings_kk4it"]
+font = ExtResource("7_52fxy")
+font_size = 25
+
+[sub_resource type="LabelSettings" id="LabelSettings_65ixe"]
+font = ExtResource("7_52fxy")
+font_size = 30
+outline_size = 2
+shadow_size = 2
+
+[sub_resource type="Shortcut" id="Shortcut_7cw78"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1240.0
+offset_bottom = 440.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yafpi")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="Background" type="TextureRect" parent="TextureRect"]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_rqqfh")
+
+[node name="MainUIBackgroudAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_th71s")
+volume_db = 7.0
+autoplay = true
+parameters/looping = true
+
+[node name="TitleBox" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 700.0
+offset_top = 220.0
+offset_right = 1200.0
+offset_bottom = 390.0
+
+[node name="Title" type="Label" parent="TitleBox"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "维度的节奏"
+label_settings = SubResource("LabelSettings_f5nvu")
+
+[node name="SubTitle" type="Label" parent="TitleBox"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 90.0
+offset_right = 488.0
+offset_bottom = 173.0
+text = "DimenBeat"
+label_settings = SubResource("LabelSettings_dryp4")
+horizontal_alignment = 1
+
+[node name="ButtonBackgroundBox" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 560.0
+offset_top = 365.0
+offset_right = 991.0
+offset_bottom = 900.0
+
+[node name="TitleButton2" type="TextureRect" parent="ButtonBackgroundBox"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -151.0
+offset_top = 70.0
+offset_right = 199.0
+offset_bottom = 470.0
+grow_horizontal = 0
+rotation = 0.13439
+texture = ExtResource("5_swgpt")
+
+[node name="TitleButton1" type="TextureRect" parent="ButtonBackgroundBox"]
+layout_mode = 0
+offset_left = 235.0
+offset_top = 100.0
+offset_right = 585.0
+offset_bottom = 500.0
+rotation = -0.174533
+texture = ExtResource("5_swgpt")
+
+[node name="Version" type="Label" parent="."]
+layout_mode = 0
+offset_top = 1030.0
+offset_right = 40.0
+offset_bottom = 1053.0
+text = "Version: 1.0.9-RC2"
+label_settings = SubResource("LabelSettings_kk4it")
+
+[node name="PlayerID" type="Label" parent="."]
+layout_mode = 0
+offset_top = 1055.0
+offset_right = 104.0
+offset_bottom = 1080.0
+text = "Steam ID:"
+label_settings = SubResource("LabelSettings_kk4it")
+script = ExtResource("9_wi1af")
+
+[node name="ButtonBox" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="StartButton" type="Control" parent="ButtonBox"]
+anchors_preset = 0
+offset_left = 860.0
+offset_top = 480.0
+offset_right = 1110.0
+offset_bottom = 548.0
+
+[node name="Button" type="Button" parent="ButtonBox/StartButton"]
+layout_mode = 0
+offset_right = 250.0
+offset_bottom = 68.0
+shortcut_in_tooltip = false
+icon = ExtResource("6_xeyr2")
+flat = true
+script = ExtResource("7_ws3ik")
+
+[node name="Label" type="Label" parent="ButtonBox/StartButton"]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 19.0
+offset_right = 235.0
+offset_bottom = 50.0
+text = "Start Game"
+label_settings = SubResource("LabelSettings_65ixe")
+horizontal_alignment = 1
+script = ExtResource("9_dhxrj")
+
+[node name="LoadButton" type="Control" parent="ButtonBox"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 860.0
+offset_top = 530.0
+offset_right = 1110.0
+offset_bottom = 598.0
+
+[node name="Button" type="Button" parent="ButtonBox/LoadButton"]
+layout_mode = 0
+offset_right = 250.0
+offset_bottom = 68.0
+shortcut = SubResource("Shortcut_7cw78")
+icon = ExtResource("6_xeyr2")
+flat = true
+
+[node name="Label" type="Label" parent="ButtonBox/LoadButton"]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 19.0
+offset_right = 235.0
+offset_bottom = 50.0
+text = "加载游戏"
+label_settings = SubResource("LabelSettings_65ixe")
+horizontal_alignment = 1
+script = ExtResource("11_071ga")
+
+[node name="DevTeamButton" type="Control" parent="ButtonBox"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 860.0
+offset_top = 630.0
+offset_right = 1110.0
+offset_bottom = 698.0
+
+[node name="Button" type="Button" parent="ButtonBox/DevTeamButton"]
+layout_mode = 0
+offset_right = 250.0
+offset_bottom = 68.0
+shortcut = SubResource("Shortcut_7cw78")
+icon = ExtResource("6_xeyr2")
+flat = true
+
+[node name="Label" type="Label" parent="ButtonBox/DevTeamButton"]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 19.0
+offset_right = 235.0
+offset_bottom = 50.0
+text = "开发团队"
+label_settings = SubResource("LabelSettings_65ixe")
+horizontal_alignment = 1
+script = ExtResource("12_vbx0h")
+
+[node name="SettingButton" type="Control" parent="ButtonBox"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 860.0
+offset_top = 680.0
+offset_right = 1110.0
+offset_bottom = 748.0
+
+[node name="Button" type="Button" parent="ButtonBox/SettingButton"]
+layout_mode = 0
+offset_right = 250.0
+offset_bottom = 68.0
+shortcut = SubResource("Shortcut_7cw78")
+icon = ExtResource("6_xeyr2")
+flat = true
+
+[node name="Label" type="Label" parent="ButtonBox/SettingButton"]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 19.0
+offset_right = 235.0
+offset_bottom = 50.0
+text = "设置"
+label_settings = SubResource("LabelSettings_65ixe")
+horizontal_alignment = 1
+script = ExtResource("13_smkij")
+
+[node name="QuitButton" type="Control" parent="ButtonBox"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 860.0
+offset_top = 730.0
+offset_right = 1110.0
+offset_bottom = 798.0
+
+[node name="Button" type="Button" parent="ButtonBox/QuitButton"]
+layout_mode = 0
+offset_right = 250.0
+offset_bottom = 68.0
+shortcut = SubResource("Shortcut_7cw78")
+icon = ExtResource("6_xeyr2")
+flat = true
+script = ExtResource("11_vcdra")
+
+[node name="Label" type="Label" parent="ButtonBox/QuitButton"]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 19.0
+offset_right = 235.0
+offset_bottom = 50.0
+text = "退出"
+label_settings = SubResource("LabelSettings_65ixe")
+horizontal_alignment = 1
+script = ExtResource("15_o8yex")
